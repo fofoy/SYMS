@@ -37,7 +37,7 @@ footer ul li a span { display: block; }
 	background-color: #253554;
 }
 aside input{display: block; width: 90px; height:40px; cursor: pointer; margin: 5px auto; text-transform: uppercase;text-align: center;background: #151f32; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color:#dccb9d; border-radius: 10px; font-size: 1.5em;}
-#range {width:75%;margin: 0 auto; display: table; margin-top:1em;color: #253554;}
+#range {width:75%;margin: 2em auto; display: table;}
 /*#range:before, #range:after { content: ""; display: inline-block; width: 3em; height: 3em; background: #253554; border-radius: 100%; }
 #range:before{margin:0 50em 5em 0;}*/
 /*#range:after{margin:0 0 5em 1000px;}*/
@@ -56,20 +56,63 @@ aside input{display: block; width: 90px; height:40px; cursor: pointer; margin: 5
 	content: ""; width: 200px; height: 200px; background: #cdb985; border-radius: 100%; margin:5em auto 0; border:5px solid #253554; z-index: 1;
 }
 
+input[type='range']{
+-webkit-appearance:none;
+background-color: #253554;
+height: .4em;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background:#253554;
+ 	height: 3em;
+ 	width: 1em;
+}
+
 #triangle{display: block;
 width: 0;
 height: 0;
 border: transparent solid 10px;
 border-top-color: #253554; margin: -.1em auto;}
 
-
-input[type="range"] {
--webkit-appearance: slider-horizontal;
-padding: initial;
-border: initial;
-margin: 20px;
+#stepun{
+	color:#253554;
+	text-align: center;
+	margin: 1.5em auto;
+	bottom: 0;
+	content: ""; 
+	float: left;
+	width: 2.5em; 
+	height: 2.5em; 
+	background: #dccb9d; 
+	border-radius: 100%;
 }
 
+#stepdeux{
+	color:#dccb9d;
+	text-align: center;
+	margin: 1.5em auto;
+	content: ""; 
+	width: 2.5em; 
+	height: 2.5em; 
+	background: #253554; 
+	border-radius: 100%;
+	display: table;
+}
+
+#steptrois{
+	color:#dccb9d;
+	text-align: center;
+	margin: -2em auto;
+	content: ""; 
+	display: inline-block; 
+	width: 2.5em; 
+	height: 2.5em; 
+	background: #253554; 
+	border-radius: 100%;
+	float: right;
+	position: relative;
+}
 
 /***	
 	INFOS ACTIVITY
