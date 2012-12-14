@@ -40,9 +40,9 @@ aside input{width: 90px; height:40px; text-transform: uppercase;text-align: cent
 #range {width:1000px;margin-left: 225px;display: table; margin-top:5em;color: #253554;}
 #range:before, #range:after { content: ""; display: inline-block; width: 3em; height: 3em; background: #253554; border-radius: 100%; }
 #range:before{margin:0 50em 5em 0;}
-#range:after{margin:0 0 5em 1000px;}
+/*#range:after{margin:0 0 5em 1000px;}*/
 #rangeOutput{text-align: center;font-size: 1000%;color: #253554; font-weight: bold; margin-top: .4em;}
-h2{text-align: center;font-size: 400%;height: 50px;border-bottom: 10px black; color: #253554;}
+#budget h2 { display: table; margin: 0 auto 20px; font-size: 4em; color: #253554;}
 
 #bord{
 	width: 100%; height: 50px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
@@ -54,7 +54,7 @@ h2{text-align: center;font-size: 400%;height: 50px;border-bottom: 10px black; co
 
 
 #budget{
-	content: ""; display: inline-block; width: 25em; height: 25em; background: #cdb985; border-radius: 100%; margin-left: 60em; margin-top: 5em; border:5px solid #253554; z-index: 1;
+	content: ""; width: 25em; height: 25em; background: #cdb985; border-radius: 100%; margin:5em auto 0; border:5px solid #253554; z-index: 1;
 }
 
 #budget:after{width:100px;height:100px;border:100px solid #069;border-color:transparent transparent #069 transparent;border-width:100px; margin: 10em 10em 10em 10em;z-index: 200;}
@@ -72,5 +72,5 @@ margin: 20px;
 	INFOS ACTIVITY
 **/
 #info_place { text-align: center; padding: 20px 0; background: #42506c; }
-h2 { display: table; margin: 0 auto 20px; font-size: 1.8em; text-transform: uppercase; color: #e6ddc5; padding: .5em 1em; border-top: 1px solid #e6ddc5; border-bottom: 1px solid #e6ddc5; }
+#info_place h2 { display: table; margin: 0 auto 20px; font-size: 1.8em; text-transform: uppercase; color: #e6ddc5; padding: .5em 1em; border-top: 1px solid #e6ddc5; border-bottom: 1px solid #e6ddc5; }
 #info_place img { display: block; width: 100%; height: 100px; border-top: 1px solid #dccb9d; border-bottom: 1px solid #dccb9d; }
