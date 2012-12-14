@@ -159,3 +159,6 @@ border-top-color: #253554; margin: -.1em auto;}
 #info_place h3 { color: #e6ddc5; margin-bottom: 1em; font-size: 1.4em; font-weight: bold; }
 #info_place p { color: #e6ddc5; font-size: 1.4em; padding: 0 .5em; margin-bottom: 1em; }
 #info_place a { display: inline-block; color: #dfd3b1; font-size: 1.4em; margin-bottom: 1em; }
+#info_place a:last-of-type { border-radius: 2px; background: #dfd7c1; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; }
+#info_place a:last-of-type span { display: inline-block; width: 11px; height: 16px; overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
+#info_place div { display: block; width: 100%; height: 130px; border-top: 1px solid #dccb9d; border-bottom: 1px solid #dccb9d; margin-bottom: 1em; }
