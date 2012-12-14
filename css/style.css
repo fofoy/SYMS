@@ -34,8 +34,6 @@ footer ul li a span { display: block; }
 
 footer ul li a:hover{
 	color:#dccb9d;
-}
-#budget:hover,#profil:hover,#liste:hover{
 	background-color: #253554;
 }
 aside input{width: 90px; height:40px; text-transform: uppercase;text-align: center;background: #151f32; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color:#dccb9d; border-radius: 10px; margin-top:5px; margin-left: 675px;font-size: 150%;}
@@ -55,11 +53,11 @@ h2{text-align: center;font-size: 400%;height: 50px;border-bottom: 10px black; co
 }
 
 
-section{
+#budget{
 	content: ""; display: inline-block; width: 25em; height: 25em; background: #cdb985; border-radius: 100%; margin-left: 60em; margin-top: 5em; border:5px solid #253554; z-index: 1;
 }
 
-section:after{width:100px;height:100px;border:100px solid #069;border-color:transparent transparent #069 transparent;border-width:100px; margin: 10em 10em 10em 10em;z-index: 200;}
+#budget:after{width:100px;height:100px;border:100px solid #069;border-color:transparent transparent #069 transparent;border-width:100px; margin: 10em 10em 10em 10em;z-index: 200;}
 
 
 input[type="range"] {
