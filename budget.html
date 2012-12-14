@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h1>Budget</h1>
+	</header>
+	<aside id="bord"></aside>
+	<section>
+	<h1 id="rangeOutput">250</h1><br/>
+	<h2>euros</h2>
+	</section>
+	<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5"onChange="document.getElementById('rangeOutput').textContent=value">
+	<aside id="valider">
+	<input type="submit">
+	</aside>
+	<footer>
+		<ul>
+			<li><span><a id="budget" href="#">Budget</a></span></li>
+			<li><a id="liste" href="#">Liste</a></li>
+			<li><a id="profil" href="#">Profil</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
