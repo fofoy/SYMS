@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">
+
+	</script>
 </head>
 <body>
 	<header>
@@ -24,9 +27,13 @@
 	<h2>euros</h2>
 	</section>
 	<div id="triangle"></div>
-	<a id="moins" href="#">-</a>
+	<aside id="moins">
+		<a href="#">-</a>
+	</aside>
 	<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5" onChange="document.getElementById('rangeOutput').textContent=value">
-	<a id="plus" href="#">+</a>
+	<section id="plus">
+		<a href="#">+</a>
+	</section>
 	<aside id="valider">
 	<input type="submit">
 	</aside>
