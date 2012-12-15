@@ -160,6 +160,18 @@ border-top-color: #253554; margin: -.1em auto;}
 #historique h3, #historique h4{margin-top: 1.5em;}
 .b{width:100%;display: inline-block; height: 100%; text-align: center; float: left; background-color: #e6ddc5; font-size: 1.5em;  border-bottom: 2px solid #dfd3b1; }
 #infoprofil img { display: block; width: 60px; height: 60px; border: 1px solid #dccb9d; float: left; margin-top: 0.9em; margin-left: 0.9em;}
-#infoprofil h1{padding-top: 0.8em; color: #dccb9d; font-size: 2em;margin-left: 4em;}
-#infoprofil h2 {padding-top: 0.6em; color: #dccb9d;font-size: 1.5em;}
-#infoprofil h3{float: right;color: #dccb9d;font-size: 1.5em;}
+#infoprofil h1{padding-top: 0.5em; color: #dccb9d; font-size: 2em;margin-left: 4em;}
+#infoprofil h2 {padding-top: 0.1em; color: #dccb9d;font-size: 1.5em;padding-left: 5.4em;}
+#infoprofil h3{float: right;padding-right:1em;}
+#infoprofil a { text-decoration: none;color: #dccb9d;font-size: 1.5em;}
+#carre{width: 30px; height:30px; background-color:#dccb9d; text-decoration: none; float: right; margin-right: 1.8em; margin-top: 0.4em;}
+
+/***
+	LISTE TO DO
+**/
+
+#date{
+	text-align: center; font-size: 2em;width: 100%; height: 59px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color: #dccb9d;
+}
+
+#barre{display: block; width: 100%; height: 59px; background-color: #cdb985; position: absolute; bottom: 59px;}
