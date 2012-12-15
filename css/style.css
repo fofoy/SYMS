@@ -144,16 +144,17 @@ border-top-color: #253554; margin: -.1em auto;}
 	color: #dccb9d;
 	text-align:center;
 	font-size: 4em;
+	width: 19px;
 }
 
 #moins {
 	float: left;
-	margin: 1em auto 1em 5em;
+	margin: 1em auto 1em 2em;
 }
 
 #plus {
 	float: right;
-	margin: -4em 5em auto auto;
+	margin: -4em 2em auto auto;
 }
 /***	
 	INFOS ACTIVITY
@@ -167,3 +168,22 @@ border-top-color: #253554; margin: -.1em auto;}
 #info_place a:last-of-type { border-radius: 2px; background: #dfd7c1; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; }
 #info_place a:last-of-type span { display: inline-block; width: 11px; height: 16px; overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
 #info_place div { display: block; width: 100%; height: 130px; border-top: 1px solid #dccb9d; border-bottom: 1px solid #dccb9d; margin-bottom: 1em; }
+
+/***
+	PROFILE
+**/
+#infoprofil{width: 100%; height: 80px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));}
+#score {width: 100%; height: 59px; position: fixed;}
+#score article { display: block; width: 33.33%; height: 100%; text-align: center; float: left; background: #101826; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));}
+#score h2{color:#42506c; margin: 0.5em auto; font-size: 1.5em;}
+#score h3{color:#dccb9d; margin: 0.5em auto; font-size: 1.5em;}
+#historique {width: 100%; height: 59px;position: fixed;}
+#a {margin-top:59px;width:100%;display: inline-block; height: 100%; text-align: center; float: left; background-color: #dfd3b1; font-size: 1.5em; border-right:2px solid #dccb9d; }
+#historique h3, #historique h4{margin-top: 1.5em;}
+.b{width:100%;display: inline-block; height: 100%; text-align: center; float: left; background-color: #e6ddc5; font-size: 1.5em;  border-bottom: 2px solid #dfd3b1; }
+#infoprofil img { display: block; width: 60px; height: 60px; border: 1px solid #dccb9d; float: left; margin-top: 0.9em; margin-left: 0.9em;}
+#infoprofil h1{padding-top: 0.8em; color: #dccb9d; font-size: 2em;margin-left: 4em;}
+#infoprofil h2 {padding-top: 0.6em; color: #dccb9d;font-size: 1.5em;}
+#infoprofil h3{float: right;color: #dccb9d;font-size: 1.5em;}
+
+
