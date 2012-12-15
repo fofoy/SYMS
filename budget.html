@@ -15,16 +15,18 @@
 		<h1>Budget</h1>
 	</header>
 	<aside id="bord">
-		<div id="stepun">1</div>
-		<div id="stepdeux">2</div>
-		<div id="steptrois">3</div>
+		<span id="stepun">1</span>
+		<span id="stepdeux">2</span>
+		<span id="steptrois">3</span>
 	</aside>
 	<section id="budget">
 	<h1 id="rangeOutput">250</h1><br/>
 	<h2>euros</h2>
 	</section>
 	<div id="triangle"></div>
+	<a id="moins" href="#">-</a>
 	<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5" onChange="document.getElementById('rangeOutput').textContent=value">
+	<a id="plus" href="#">+</a>
 	<aside id="valider">
 	<input type="submit">
 	</aside>
