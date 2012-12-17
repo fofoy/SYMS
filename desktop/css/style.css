@@ -42,5 +42,11 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 
 .wrapper header{height:170px;}
 .wrapper header img {width:179px;height:140px; margin-top: 15px;}
-#menu {width:225px; height:104px;top:0;right:0;position:absolute; background: red;}
+
+#menu {width:225px; height:105px;top:0;right:0;position:absolute;font-size: 0;}
+#menu ul li a {line-height:170px;width:111px;height:105px;background:#efefd9;color:#23324f;text-decoration:none;text-align:center;opacity:.8;display:block;font-size: 1rem;float:left;-webkit-transition:all .5s ease;}
+#menu ul li a:hover {line-height: 245px;height:145px;-webkit-transition:all .5s ease;}
+#menu ul li:nth-child(1) a{border-right:1px solid #cdc5a8;}
+#menu ul li:nth-child(2) a{border-left:1px solid #ffffff;}
+
 
