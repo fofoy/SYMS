@@ -1,10 +1,8 @@
 body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;background: url('img/background.png') no-repeat center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-#wrapper {width:960px;position:relative;margin:auto;}
-#wrapper div {width:477px;height:361px;margin:80px auto;}
+.wrapper {width:960px;position:relative;margin:auto;}
+.wrapper div {width:477px;height:361px;margin:80px auto;}
 
-/***
-	MON ESPACE
-**/
+
 
 #header {}
 #connexion {width:411px;margin:auto;}
@@ -12,17 +10,17 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 -moz-border-radius: 5px;border-radius: 5px;}
 #connexion a:before {content:'';background:red;width:75px;height:60px;display:inline-block;float:left;border-right:#141d2e 1px solid;-webkit-border-top-left-radius: 5px;
 -webkit-border-bottom-left-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
-#profil { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #151f32; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); }
-#profil h1 { text-transform: uppercase; font-size: 2em; color: #efefd9; display: table; margin: 0 auto; }
-#profil h1:before, header h1:after { content: ""; display: inline-block; width: .3em; height: .3em; background: #efefd9; border-radius: 100%; }
+
+/***
+	MON ESPACE
+**/
 
 #mon-espace{color: white;}
-#profil { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #23324f;}
-#profil h1 { text-transform: uppercase; font-size: 1em; color: #efefd9; display: table; margin: 0 auto; }
+#profil { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #23324f; }
+#profil h1 { text-transform: uppercase; font-size: 2em; color: #efefd9; display: table; margin: 0 auto; }
 #profil h1:before, #profil h1:after { content: ""; display: inline-block; width: .3em; height: .3em; background: #efefd9; border-radius: 100%; }
 #profil h1:before { margin: 0 .3em .1em 0; }
 #profil h1:after { margin: 0 0 .1em .3em; }
-header{height:170px;}
 
 #etape1 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; margin-right:12px; display: inline-block;position:relative;}
 #etape1 article {width:310px; height:420px; background:#efefd9; opacity: 0.8;}
@@ -44,3 +42,9 @@ header{height:170px;}
 #generer {width:310px; margin:10px auto;}
 #generer a {background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
+
+header{height:120px;}
+header img {float: left; width: 150px; height: 120px; background: url('img/logo.png') no-repeat; background-size: 149px 110px; margin-left: 7em;}
+header nav {float: right; width: 200px; height: 106px;background-color: #f1f1e2; display: inline-block; opacity: 0.5; margin-right: 7em;}
+header nav ul li:first-of-type{height: 106px; width: 99px;}
+header nav ul li:last-of-type{height: 106px; width: 99px;}
