@@ -183,6 +183,7 @@ border-top-color: #253554; margin: -.1em auto;}
 #carre{width: 30px; height:30px; background-color:#dccb9d; text-decoration: none; float: right; margin-right: 3em; margin-top: 1em;}
 #carre a{display:block;height: 26px;right: 20px;width: 20px;margin:0.1em auto;background:url("img/sprite.png") no-repeat;background-position: 0 -26px;}
 #date{text-align: center; font-size: 2em;width: 100%; height: 59px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color: #dccb9d;}
+#date h1{padding-top: 1em;}
 #barre{display: block; width: 100%; height: 59px; background-color: #cdb985; position: absolute; bottom: 59px;}
 
 #act
@@ -204,7 +205,7 @@ border-top-color: #253554; margin: -.1em auto;}
    color: #dccb9d;
 }
 
-#list
+.list
 {
    width:275px;
    height:60px;
@@ -212,21 +213,14 @@ border-top-color: #253554; margin: -.1em auto;}
    float:left;
 }
 
-#list h2{margin-top:0.7em; margin-right: 2em; font-size: 1.6em;}
-#list h3{font-size: 1.8em; margin-top: 0.2em;}
-#done
-{
-   width:75px;
-   height:60px;
-   background-color:#1f2d47;
-   float:right;
-   text-align: center;
-}
-#done h2{font-size: 1.6em;}
-#done img{display:block;margin: 1em auto;height: 17px;width: 19px;margin-left: auto;background:url("img/sprite.png") no-repeat;background-position: -41px -15px;}
-#list h2:before{content: ""; display: inline-block; width: 2em; height: 2em; background: #dccb9d; border-radius: 100%; float: left; margin-top: 0.2em; margin-left: 0.5em; margin-right: 1em;}
+.list h2{margin-top:0.7em; margin-right: 2em; font-size: 1.6em;}
+.list h3{font-size: 1.8em; margin-top: 0.2em;}
+.done{width:75px;height:60px;background-color:#1f2d47;float:right;text-align: center;}
+.done h2{font-size: 1.6em;}
+.done img{display:block;margin: 1em auto;height: 17px;width: 19px;margin-left: auto;background:url("img/sprite.png") no-repeat;background-position: -41px -15px;}
+.list h2:before{content: ""; display: inline-block; width: 2em; height: 2em; background: #dccb9d; border-radius: 100%; float: left; margin-top: 0.2em; margin-left: 0.5em; margin-right: 1em;}
 #triangletodo{display: block;width: 0;height: 0;border: transparent solid 10px;border-top-color: #253554; margin: 5em auto;}
-
+.list a{margin-top:-3em; margin-right:1em;display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px; float: right;}
 
 
 
