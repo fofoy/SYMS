@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title></title>
 
-	<meta name="Viewport" content="width=device-width">
+	<meta name="Viewport" content="width=device-width, user-scalable=no">
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -19,6 +19,13 @@
 			console.log(range);
 			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
 			range.val(range.val() - 5);
+		});
+		$('#plus a').on('click',function(){
+			console.log('ok');
+			var range = $('#range');
+			console.log(range);
+			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
+			range.val(range.val() -5 + 10);
 		});
 	});
 	
