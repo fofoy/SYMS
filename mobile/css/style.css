@@ -194,7 +194,7 @@ border-top-color: #253554; margin: -.1em auto;}
 
 #act
 {
-   width:350px;
+   width:100%;
    margin:20px auto;
    padding-bottom:25px;
    padding-top:5px;
@@ -203,7 +203,7 @@ border-top-color: #253554; margin: -.1em auto;}
 
 #act2
 {
-   width:350px;
+   width:100%;
    margin:20px auto;
    padding-bottom:25px;
    padding-top:5px;
@@ -213,7 +213,7 @@ border-top-color: #253554; margin: -.1em auto;}
 
 .list
 {
-   width:275px;
+   width:80%;
    height:60px;
    background-color:#42506c;
    float:left;
@@ -221,7 +221,7 @@ border-top-color: #253554; margin: -.1em auto;}
 
 .list h2{margin-top:0.7em; margin-right: 2em; font-size: 1.6em;}
 .list h3{font-size: 1.8em; margin-top: 0.2em;}
-.done{width:75px;height:60px;background-color:#1f2d47;float:right;text-align: center;}
+.done{width:20%;height:60px;background-color:#1f2d47;float:right;text-align: center;}
 .done h2{font-size: 1.6em;}
 .done img{display:block;margin: 1em auto;height: 17px;width: 19px;margin-left: auto;background:url("img/sprite.png") no-repeat;background-position: -41px -15px;}
 .list h2:before{content: ""; display: inline-block; width: 2em; height: 2em; background: #dccb9d; border-radius: 100%; float: left; margin-top: 0.2em; margin-left: 0.5em; margin-right: 1em;}
