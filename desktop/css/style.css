@@ -12,12 +12,12 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 	MON ESPACE
 **/
 
-#mon-espace{color: white;}
-#profil { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #23324f; }
-#profil h1 { text-transform: uppercase; font-size: 2em; color: #efefd9; display: table; margin: 0 auto; }
-#profil h1:before, #profil h1:after { content: ""; display: inline-block; width: .3em; height: .3em; background: #efefd9; border-radius: 100%; }
-#profil h1:before { margin: 0 .3em .1em 0; }
-#profil h1:after { margin: 0 0 .1em .3em; }
+
+#monespace { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #23324f; }
+#monespace h1 { text-transform: uppercase; font-size: 2em; color: #efefd9; display: table; margin: 0 auto; }
+#monespace h1:before, #monespace h1:after { content: ""; display: inline-block; width: .3em; height: .3em; background: #efefd9; border-radius: 100%; }
+#monespace h1:before { margin: 0 .3em .1em 0; }
+#monespace h1:after { margin: 0 0 .1em .3em; }
 
 #etape1 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; margin-right:12px; display: inline-block;position:relative;}
 #etape1 article {width:310px; height:420px; background:#efefd9; opacity: 0.8;}
@@ -49,4 +49,30 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 #menu ul li:nth-child(1) a{border-right:1px solid #cdc5a8;}
 #menu ul li:nth-child(2) a{border-left:1px solid #ffffff;}
 
+#profil {width:320px;height:500px;box-shadow: 0px 0px 3px #a8a8a8;display:inline-block;position:relative;margin:15px 15px 0px 0px;}
+#profil article:nth-child(1){width:320px; height:500px;background:#efefd9; opacity: 0.8;}
+#profil article:nth-child(2){width:320px; height:500px;position: relative;top:0;}
+
+#infoprofil{width: 100%; height: 80px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));}
+#score {width: 100%; height: 59px; position: fixed;}
+#score article { display: block; width: 33.33%; height: 100%; text-align: center; float: left; background: #101826; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));}
+#score h2{color:#42506c; margin: 0.5em auto; font-size: 1.5em;}
+#score h3{color:#dccb9d; margin: 0.5em auto; font-size: 1.5em;}
+#historique {width: 100%; height: 59px;position: fixed;}
+#a {margin-top:59px;width:100%;display: inline-block; height: 100%; text-align: center; float: left; background-color: #dfd3b1; font-size: 1.5em; border-right:2px solid #dccb9d; }
+#historique h3, #historique h4{margin-top: 1.5em;}
+.b{width:100%;display: inline-block; height: 100%; text-align: center; float: left; background-color: #e6ddc5; font-size: 1.5em;  border-bottom: 2px solid #dfd3b1; }
+#infoprofil img { display: block; width: 60px; height: 60px; border: 1px solid #dccb9d; float: left; margin-top: 0.9em; margin-left: 0.9em;}
+#infoprofil h1:last-of-type{padding-top: 0.5em; color: #dccb9d; font-size: 2em;margin-left: 4em;}
+#infoprofil h2 {padding-top: 0.1em; color: #dccb9d;font-size: 1.5em;padding-left: 5.4em;}
+#infoprofil h3{float: right;padding-right:1em;}
+#txt { text-decoration: none;color: #dccb9d;font-size: 1.5em; float: right;margin-right:1em;}
+#carre{width: 30px; height:30px; background-color:#dccb9d; text-decoration: none; float: right; margin-right: 3em; margin-top: 1em;}
+#carre a{display:block;height: 26px;right: 20px;width: 20px;margin:0.1em auto;background:url("img/sprite.png") no-repeat;background-position: 0 -26px;}
+#date{text-align: center; font-size: 2em;width: 100%; height: 59px; background: #6d7789; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color: #dccb9d;}
+#date h1{padding-top: 1em;}
+#barre{display: block; width: 100%; height: 59px; background-color: #cdb985; position: absolute; bottom: 59px;}
+
+#liste {width:620px; height:500px;box-shadow: 0px 0px 3px #a8a8a8;display: inline-block;position:relative;}
+#liste article {width:620px; height:500px;background:#efefd9; opacity: 0.8;}
 
