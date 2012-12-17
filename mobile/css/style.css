@@ -128,13 +128,24 @@ border-top-color: #253554; margin: -.1em auto;}
 /***	
 	ACTIVITIES
 **/
-#activities { margin: 10px auto; }
+#activities,  { margin: 10px auto; }
 #activities ul li { display: block; width: 100%; height: 60px; background: #243352; margin: 5px auto; }
 #activities ul li a { display: block; height: 100%; color: #dccb9d; font-size: 1.4em; position: relative; }
 #activities ul li a:after { content: ""; display: block; width: 30px; height: 23px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 15px; }
 #activities ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 15px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -3px; right: -15px; /*background: url('img/sprite.png');*/ background: #c8bb96; }
 #activities ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 5px 0 0 8px; }
+
+/***	
+	LISTE
+**/
+#select_list,  { margin: 10px auto; }
+#select_list ul li { display: block; width: 100%; height: 60px; background: #243352; margin: 5px auto; }
+#select_list ul li a { display: block; height: 100%; color: #dccb9d; font-size: 1.4em; position: relative; }
+#select_list ul li a:after { content: ""; display: block; width: 30px; height: 23px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 15px; }
+#select_list ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 15px; }
+#select_list ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -3px; right: -15px; /*background: url('img/sprite.png');*/ background: #c8bb96; }
+#select_list ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 5px 0 0 8px; }
 
 /***	
 	INFOS ACTIVITY
