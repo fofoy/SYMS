@@ -1,4 +1,4 @@
-body {margin:0;padding:0;background: url('img/background.png') no-repeat center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;background: url('img/background.png') no-repeat center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 #wrapper {width:960px;position:relative;margin:auto;}
 #wrapper div {width:477px;height:361px;margin:80px auto;}
 
@@ -6,4 +6,9 @@ body {margin:0;padding:0;background: url('img/background.png') no-repeat center 
 	MON ESPACE
 **/
 
-#header
+#header {}
+#wrapper nav {width:411px;margin:auto;}
+#wrapper nav a {background:#23324f;color:white;height:60px; line-height:60px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px;}
+#wrapper nav a:before {content:'';background:red;width:60px;height:60px;display:inline-block;float:left;border-right:#141d2e 1px solid;-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
