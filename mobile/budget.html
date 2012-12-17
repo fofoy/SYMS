@@ -19,6 +19,7 @@
 			console.log(range);
 			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
 			range.val(range.val() - 5);
+			$('#rangeOutput').html(range.val());
 		});
 		$('#plus a').on('click',function(){
 			console.log('ok');
@@ -26,6 +27,7 @@
 			console.log(range);
 			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
 			range.val(range.val() -5 + 10);
+			$('#rangeOutput').html(range.val());
 		});
 	});
 	
@@ -55,7 +57,7 @@
 		</section>
 	</div>
 	<aside id="valider">
-	<input type="submit">
+		<input type="submit">
 	</aside>
 	<nav>
 		<ul>
