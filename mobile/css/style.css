@@ -36,8 +36,7 @@ nav ul li:nth-of-type(3).active a span { background-position: -20px -52px; }
 /***
 	BUDGET
 **/
-.active{background-color: #253554;color:#dccb9d;}
-
+.active{background-color: #253554;color:#e6e6d0;}
 aside input{display: block; width: 90px; height:40px; cursor: pointer; margin: 5px auto; text-transform: uppercase;text-align: center;background: #151f32; background-image:-webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));color:#dccb9d; border-radius: 10px; font-size: 1.5em;}
 #money_range { height:50px;width: 75%; position: relative; margin: 0 auto; }
 #range {width:100%;margin: 2em auto; display: table; position: relative; }
@@ -53,9 +52,6 @@ aside input{display: block; width: 90px; height:40px; cursor: pointer; margin: 5
 input[type='range']{-webkit-appearance:none;background-color: #253554;height: .4em;}
 input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#253554;height: 3em;width: 1em;}
 #triangle{display: block;width: 0;height: 0;border: transparent solid 10px;border-top-color: #253554; margin: -.1em auto;}
-#stepun{color:#253554;text-align: center;margin: auto;bottom: 0;content: ""; float: left;width: 2.5em; height: 2.5em; background: #dccb9d; border-radius: 100%;}
-#stepdeux{color:#dccb9d;text-align: center;margin: auto;content: ""; width: 2.5em; height: 2.5em; background: #253554; border-radius: 100%;display: table;}
-#steptrois{color:#dccb9d;text-align: center;margin: auto;content: ""; display: inline-block; width: 2.5em; height: 2.5em; background: #253554; border-radius: 100%;float: right;position: relative;}
 #plus a,#moins a{color: #dccb9d;text-align:center;font-size: 4em;width: 19px;}
 
 #bord{
