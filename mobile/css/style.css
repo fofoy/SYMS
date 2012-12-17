@@ -67,9 +67,10 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 }
 
 input[type='range']{
--webkit-appearance:none;
-background-color: #253554;
-height: .4em;
+	-webkit-appearance:none;
+	background-color: #253554;
+	height: .4em;
+	cursor: pointer;
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -77,6 +78,7 @@ input[type='range']::-webkit-slider-thumb {
     background:#253554;
  	height: 3em;
  	width: 1em;
+ 	cursor: pointer;
 }
 
 #triangle{display: block;
