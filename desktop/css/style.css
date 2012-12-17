@@ -2,9 +2,6 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 .wrapper {width:960px;position:relative;margin:auto;}
 .wrapper div {width:477px;height:361px;margin:80px auto;}
 
-
-
-#header {}
 #connexion {width:411px;margin:auto;}
 #connexion a {background:#23324f;height:60px; line-height:60px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
@@ -43,8 +40,7 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 #generer a {background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
 
-header{height:120px;}
-header img {float: left; width: 150px; height: 120px; background: url('img/logo.png') no-repeat; background-size: 149px 110px; margin-left: 7em;}
-header nav {float: right; width: 200px; height: 106px;background-color: #f1f1e2; display: inline-block; opacity: 0.5; margin-right: 7em;}
-header nav ul li:first-of-type{height: 106px; width: 99px;}
-header nav ul li:last-of-type{height: 106px; width: 99px;}
+.wrapper header{height:170px;}
+.wrapper header img {width:179px;height:140px; margin-top: 15px;}
+#menu {width:225px; height:104px;top:0;right:0;position:absolute; background: red;}
+
