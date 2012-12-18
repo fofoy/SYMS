@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -31,38 +30,39 @@
 	</script>
 </head>
 <body>
-	<!--<header>
-	<img src="">
-	<nav>
-			<ul>
-				<li><a href="#">BUDGET</a></li>
-				<li><a href="#">LISTE</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div id="budget">
-		<h1>PROFIL</h1>
-	</div>-->
 	<div class="wrapper">
-
+		<header>
+			<img src="css/img/logo.png" width="100%" height="100%"/>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">BUDGET</a></li>
+					<li><a href="#">LISTE</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="monespace">
+		<h1>BUDGET</h1>
+	</div>
+	<div class="wrapper">
 		<section id="etape1">
 			<article>
 			</article>
 			<article id="budget">
-		<h1 id="rangeOutput">250</h1><br/>
-		<h2>euros</h2>
-	<div id="triangle"></div>
-	<div id="money_range">
-		<div id="moins">
-			<a href="#">-</a>
-		</div>
-		<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5" onChange="document.getElementById('rangeOutput').textContent=value">
-		<div id="plus">
-			<a href="#">+</a>
-		</div>
-			<div id="form">
-			<input type="textarea">
-			<input type="submit" value="OK">
+				<h1 id="rangeOutput">250</h1><br/>
+				<h2>euros</h2>
+				<div id="triangle"></div>
+				<div id="money_range">
+					<div id="moins">
+						<a href="#">-</a>
+					</div>
+				<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5" onChange="document.getElementById('rangeOutput').textContent=value">
+				<div id="plus">
+					<a href="#">+</a>
+				</div>
+				<div id="form">
+					<input type="textarea">
+					<input type="submit" value="OK">
 			</article>
 			<nav>
 				<a href="#"></a>
@@ -72,43 +72,44 @@
 			<article>
 			</article>
 				<section id="activities">
-		<ul>
-			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
-			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
-			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
-			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
-		</ul>
-	</section>
+					<ul>
+						<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+						<li><a href=""><span>Je veux de l'incongru<span></span></span></a></li>
+						<li><a href=""><span>Je veux manger<span></span></span></a></li>
+						<li><a href=""><span>Je veux boire<span></span></span></a></li>
+						<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+					</ul>
+				</section>
 			<nav>
-				<a href="#"></a>
-				<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
 			</nav>
 		</section>
 		<section id="etape3">
 			<article>
 			</article>
-			<section id="activities">
-		<ul>
-			<li><a href=""><span>Le Mojito Lab<span></span></span></a></li>
-			<a href="" class="infos"><span>plus d'informations</span></a>
-			<li><a href=""><span>La Grosse Mignonne<span></span></span></a></li>
-			<a href="" class="infos">plus d'informations</a>
-			<li><a href=""><span>La Lucha Libre<span></span></span></a></li>
-			<a href="" class="infos">plus d'informations</a>
-		</ul>
-	</section>
-			<article>
-		<h2>Musée du Louvres</h2>
-		<img src="" alt="">
-		<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
-		<p>Prix: <span>10€</span></p>
-		<p>Adresse: 180 rue de Rivoli, 75001 PARIS</p>
-		<a href="#" id="itin"><span></span>voir l'itinéraire</a>
-			</article>
-			<nav>
-				<a href="#"></a>
-				<a href="#"></a>
-			</nav>
+			<section id="todo">
+				<ul>
+					<li><a href=""><span>Le Mojito Lab<span></span></span></a></li>
+					<a href="" class="infos"><span>plus d'informations</span></a>
+					<li><a href=""><span>La Grosse Mignonne<span></span></span></a></li>
+					<a href="" class="infos"><span>plus d'informations</span></a>
+					<li><a href=""><span>La Lucha Libre<span></span></span></a></li>
+					<a href="" class="infos"><span>plus d'informations</span></a>
+				</ul>
+		</section>
+			<!-- <article>
+				<h2>Musée du Louvres</h2>
+				<img src="" alt="">
+				<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
+				<p>Prix: <span>10€</span></p>
+				<p>Adresse: 180 rue de Rivoli, 75001 PARIS</p>
+				<a href="#" id="itin"><span></span>voir l'itinéraire</a>
+			</article> -->
+		<nav>
+			<a href="#"></a>
+			<a href="#"></a>
+		</nav>
 		</section>
 		<nav id="generer">
 			<a id="testCalque" href="#">Générer ma liste</a>
