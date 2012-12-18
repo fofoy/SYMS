@@ -7,7 +7,28 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('#moins a').on('click',function(){
+			console.log('ok');
+			var range = $('#range');
+			console.log(range);
+			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
+			range.val(range.val() - 5);
+			$('#rangeOutput').html(range.val());
+		});
+		$('#plus a').on('click',function(){
+			console.log('ok');
+			var range = $('#range');
+			console.log(range);
+			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
+			range.val(range.val() -5 + 10);
+			$('#rangeOutput').html(range.val());
+		});
+	});
 	
+	</script>
 </head>
 <body>
 	<!--<header>
@@ -27,14 +48,37 @@
 		<section id="etape1">
 			<article>
 			</article>
+			<article id="budget">
+		<h1 id="rangeOutput">250</h1><br/>
+		<h2>euros</h2>
+	<div id="triangle"></div>
+	<div id="money_range">
+		<div id="moins">
+			<a href="#">-</a>
+		</div>
+		<input type="range"  id="range" name="myRange"  title="Curseur" value="250"  min="0" max="500" step="5" onChange="document.getElementById('rangeOutput').textContent=value">
+		<div id="plus">
+			<a href="#">+</a>
+		</div>
+			<div id="form">
+			<input type="textarea">
+			<input type="submit" value="OK">
+			</article>
 			<nav>
 				<a href="#"></a>
 			</nav>
 		</section>
-
 		<section id="etape2">
 			<article>
 			</article>
+				<section id="activities">
+		<ul>
+			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+			<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+		</ul>
+	</section>
 			<nav>
 				<a href="#"></a>
 				<a href="#"></a>
@@ -42,6 +86,24 @@
 		</section>
 		<section id="etape3">
 			<article>
+			</article>
+			<section id="activities">
+		<ul>
+			<li><a href=""><span>Le Mojito Lab<span></span></span></a></li>
+			<a href="" class="infos"><span>plus d'informations</span></a>
+			<li><a href=""><span>La Grosse Mignonne<span></span></span></a></li>
+			<a href="" class="infos">plus d'informations</a>
+			<li><a href=""><span>La Lucha Libre<span></span></span></a></li>
+			<a href="" class="infos">plus d'informations</a>
+		</ul>
+	</section>
+			<article>
+		<h2>Musée du Louvres</h2>
+		<img src="" alt="">
+		<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
+		<p>Prix: <span>10€</span></p>
+		<p>Adresse: 180 rue de Rivoli, 75001 PARIS</p>
+		<a href="#" id="itin"><span></span>voir l'itinéraire</a>
 			</article>
 			<nav>
 				<a href="#"></a>
