@@ -47,7 +47,9 @@
 		$('.infos').on('click', function(){
 			$('#infosShow').toggleClass('on2');
 		});
-
+		$('#budget_value').on('click', function(){
+			$(this).select();
+		});
 	});
 	
 	</script>
@@ -82,13 +84,13 @@
 					<div id="moins">
 						<a href="#">-</a>
 					</div>
-					<input type="range"  id="range" name="myRange"  title="Curseur" value="75"  min="0" max="150" step="1" onChange="document.getElementById('rangeOutput').textContent=value">
+					<input type="range"  id="range" name="myRange"  title="Curseur" value="75"  min="0" max="150" step="1" onChange="document.getElementById('budget_value').value = document.getElementById('rangeOutput').textContent = value">
 					<div id="plus">
 						<a href="#">+</a>
 					</div>
 				</div>
 				<div id="form">
-					<input type="text" name="budget" id="budget_value">
+					<input type="text" name="budget" id="budget_value" value="75">
 					<input type="submit" class="step_budget_validate" value="OK">
 				</div>
 			</article>
