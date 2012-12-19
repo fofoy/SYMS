@@ -146,6 +146,17 @@ label { cursor: pointer; }
  * 3. Define consistent vertical alignment display in all browsers
  */
 
+ input, input[type="password"], input[type="search"], isindex {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 0px inset;
+border-image: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 
 /*
@@ -160,7 +171,7 @@ button, input { line-height: normal; *overflow: visible; }
  * 2. Allow styling of clickable form elements in iOS
  */
 
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
 
 /*
  * Consistent box sizing and appearance
