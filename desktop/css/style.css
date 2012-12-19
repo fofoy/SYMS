@@ -66,12 +66,13 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape2 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; float: left;margin-right:12px; display: block;position:relative;margin-top: 1em;}
 #test {width:310px; height:420px; background:blue;opacity: 0.8;position: absolute;}
 
+#etape2 article { width: 100%; height: 100%; position: absolute; background: #efefd9; opacity: 0.8; }
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
 #etape2 nav a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
 #activities { margin: 10px auto;}
 #activities ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto;}
-#activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; }
+#activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; background: #243352;}
 #activities ul li a:after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 17px; background-position: -41px -28px;}
 #activities ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px; /*background: url('img/sprite.png');*/ background: #efefd9; }
@@ -80,7 +81,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 
 #todo ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto 40px auto;}
-#todo ul li a:nth-child(1) { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative;}
+#todo ul li a:nth-child(1) { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative;background: #243352;}
 #todo ul li a:nth-child(1) :after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 2px; top: 17px; background-position: -41px -28px;}
 #todo ul li a:nth-child(1)  span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #todo ul li a:nth-child(1)  span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px;background: #efefd9; }
@@ -91,8 +92,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 
 #etape3 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8;float: left;display: block;position:relative;text-align: left;margin-top: 1em;}
-#etape3 article:nth-child(1) {width:310px; height:420px; background:#efefd9; opacity: 0;position: absolute;}
-#etape3 article:nth-child(2) {width:310px; height:420px; background:#42506c;}
+#etape3 article {width: 100%; height: 100%; position: absolute; background: #efefd9; opacity: 0.8; }
 #etape3 h2{display: table; margin: 0 auto 2em; font-size: 1.3em; text-transform: uppercase; color: #e6ddc5; padding: .5em .5em; border-top: 1px solid #e6ddc5; border-bottom: 1px solid #e6ddc5; }
 #etape3 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape3 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
