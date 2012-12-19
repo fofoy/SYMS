@@ -34,8 +34,17 @@
 			$('#rangeOutput').html(range.val());
 		});
 		$('.step_budget_validate').on('click', function(){
-			$('#step_budget').toggleClass('done');
+			$('#etape1done').toggleClass('on');
+			$('#etape2done').toggleClass('on');
 		});
+		$('.step_activite_validate').on('click', function(){
+			$('#etape2done').toggleClass('on2');
+			$('#etape3done').toggleClass('on');
+		});
+		$('.step_liste_validate').on('click', function(){
+			$('#etape3done').toggleClass('on2');
+		});
+
 	});
 	
 	</script>
@@ -58,7 +67,9 @@
 	</div>
 	<div class="wrapper">
 		<section id="etape1">
-			<article id="step_budget">
+			<article id="etape1done">
+			</article>
+			<article id="background_budget">
 			</article>
 			<article id="budget">
 				<h1 id="rangeOutput">75</h1><br/>
@@ -83,9 +94,9 @@
 			</nav>
 		</section>
 		<section id="etape2">
-			<article id="etape2done">
+			<article id="etape2done" class="on">
 			</article>
-			<article id="etape2test">
+			<article id="background_etape2">
 			</article>
 				<section id="activities">
 					<ul>
@@ -98,15 +109,14 @@
 				</section>
 			<nav>
 			<a href="#" class="step_budget_validate"></a>
-			<a href="#"></a>
-<<<<<<< HEAD
-=======
-			<a href="#"></a>
->>>>>>> te
+			<a href="#" class="step_activite_validate"></a>
+
 			</nav>
 		</section>
 		<section id="etape3">
-			<article>
+			<article id="etape3done" class="on">
+			</article>
+			<article id="background_etape3">
 			</article>
 			<section id="todo">
 				<ul>
@@ -134,8 +144,8 @@
 				<a href="#" id="itin"><span></span>voir l'itinéraire</a>
 			</article> -->
 		<nav>
-			<a href="#"></a>
-			<a href="#"></a>
+			<a href="#" class="step_activite_validate"></a>
+			<a href="#" class="step_liste_validate"></a>
 		</nav>
 		</section>
 		<nav id="generer">
