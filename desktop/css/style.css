@@ -65,10 +65,12 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #form input:last-of-type:hover {background:#23324f;}
 
 
+#etape2done {z-index:2;width:100%;height:0%; background: #efefd9;;position: absolute;opacity: .9;-webkit-transition:all ease .5s;}
+#etape2done.on {height:100%;}
 #etape2 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; float: left;margin-right:12px; display: block;position:relative;margin-top: 1em;}
 #test {width:310px; height:420px; background:blue;opacity: 0.8;position: absolute;}
 
-#etape2 article { width: 100%; height: 100%; position: absolute; background: #efefd9; opacity: 0.8; }
+#etape2test { width: 100%; height: 100%; position: absolute; background: #efefd9; opacity: 0.8; }
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
 #etape2 nav a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
