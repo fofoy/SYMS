@@ -177,4 +177,3 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #supp div a {text-decoration: none; color:#23324f;}
 #supp div a:hover{text-decoration:underline;}
 #map a {background:#42506c; padding:4px 10px 4px 10px;color:#e6ddc5;font-size: 1.4em;font-style:italic;text-decoration: none;border-radius: 3px;}
-#map {width:96%; height: 250px; margin: 180px auto;background:white;}
