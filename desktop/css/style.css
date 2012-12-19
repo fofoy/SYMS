@@ -82,14 +82,13 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape2 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; float: left;margin-right:12px; display: block;position:relative;margin-top: 1em;}
 #background_etape2 {width:310px; height:420px; background:#efefd9;opacity: 0.8;position: absolute;}
 
-#activities { margin: 0 auto; }
+#activities { margin: 10px auto;}
 #activities ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto;}
 #activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; background: #243352;}
 #activities ul li a:after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 17px; background-position: -41px -28px;}
 #activities ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px; /*background: url('img/sprite.png');*/ background: #efefd9; }
 #activities ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 2px 0 0 8px; }
-
 
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
@@ -139,9 +138,9 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #profil {width:320px;height:500px;box-shadow: 0px 0px 3px #a8a8a8;display:inline-block;position:relative;margin:15px 15px 0px 0px;}
 #transparent_bg{width:320px; height:500px;background:#efefd9; opacity: 0.8;}
 #profile_article{width:320px; height:500px;position: absolute;top:0;}
-#infoprofil{width: 320px; height: 80px; position: relative;background: #42506c; }
-#infoprofil span {width:40px; height:40px;background:green;float:right;margin: 30px 10px 0px 0px;}
-#infoprofil a {text-decoration:none;color:#efefd9;float:right;margin: 30px 0px 0px 70px;}
+#infoprofil{width: 320px; height: 80px; position: relative;background: #42506c;}
+.dateListe {font-family:'SteelfishRgRegular', helvetica, sans-serif;font-weight: normal;font-size:1.8em;width:320px !important;display: inline-block; height: 100%; text-align: center; -webkit-transition:all .3s ease;float: left;background:#efefd9;margin: 0px 10px 0px 0px;line-height:60px;color:#42506c; text-decoration: none;border-bottom: 3px solid #efefd9 ;}
+.dateListe:hover{color:#23324f;border-bottom: 3px solid #e6e6d0;}
 #infoprofil img { display: block; width: 60px; height: 60px; border: 1px solid #efefd9; float: left; margin-top: 0.9em; margin-left: 0.9em;}
 #infoprofil h1{padding-top: 0.5em; color: #efefd9; font-size: 2em;margin: 0 0 0 4em;}
 #infoprofil h2{display: table;padding-top: 0.1em; color: #efefd9;font-size: 1.5em;padding-left: .5em;}
@@ -154,8 +153,8 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 #historique {width: 100%; height: 59px;}
 #historique article:nth-child(1){width:100%;display: inline-block; text-align: center; float: left; background-color: #e6e6d0; font-size: 1.5em; }
-#historique h3, #historique h4{margin-top: 1.5em;color:#23324f;}
-.dateListe{width:320px !important;display: inline-block; height: 100%; text-align: center; float: left; background-color: #efefd9; font-size: 1.5em;  border-bottom: 1px solid #e6e6d0; }
+#historique h3, #historique h4{margin-top: 1.5em;color:#23324f;font-weight: normal;}
+
 
 
 #carre{width: 30px; height:30px; background-color:#dccb9d; text-decoration: none; float: right; margin-right: 3em; margin-top: 1em;}
@@ -198,6 +197,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #supp div a {text-decoration: none; color:#23324f;}
 #supp div a:hover{text-decoration:underline;}
 #map a {background:#42506c; padding:4px 10px 4px 10px;color:#e6ddc5;font-size: 1.4em;font-style:italic;text-decoration: none;border-radius: 3px;}
+
 
 #scrollbar1 { width: 310px; clear: both; margin: 20px 0 10px; }
 #scrollbar1 .viewport { width: 290px; height: 300px; overflow: hidden; position: relative; }
