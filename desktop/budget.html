@@ -33,7 +33,7 @@
 			$('#rangeOutput').html(range.val());
 		});
 		$('.step_budget_validate').on('click', function(){
-			$('#step_budget').addClass('done');
+			$('#step_budget').toggleClass('done');
 		});
 	});
 	
@@ -93,7 +93,7 @@
 					</ul>
 				</section>
 			<nav>
-			<a href="#"></a>
+			<a href="#" class="step_budget_validate"></a>
 			<a href="#"></a>
 			</nav>
 		</section>
