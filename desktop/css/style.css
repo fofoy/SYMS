@@ -82,13 +82,14 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape2 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; float: left;margin-right:12px; display: block;position:relative;margin-top: 1em;}
 #background_etape2 {width:310px; height:420px; background:#efefd9;opacity: 0.8;position: absolute;}
 
-#activities { margin: 10px auto;}
+#activities { margin: 0 auto; }
 #activities ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto;}
 #activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; background: #243352;}
 #activities ul li a:after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 17px; background-position: -41px -28px;}
 #activities ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px; /*background: url('img/sprite.png');*/ background: #efefd9; }
 #activities ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 2px 0 0 8px; }
+
 
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
@@ -197,3 +198,15 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #supp div a {text-decoration: none; color:#23324f;}
 #supp div a:hover{text-decoration:underline;}
 #map a {background:#42506c; padding:4px 10px 4px 10px;color:#e6ddc5;font-size: 1.4em;font-style:italic;text-decoration: none;border-radius: 3px;}
+
+#scrollbar1 { width: 310px; clear: both; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 290px; height: 300px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { width: 100%; list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #003D5D; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar1 .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

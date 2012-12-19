@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
 	<script type="text/javascript">
 	$(function(){
 		$('#moins a').on('click',function(){
@@ -50,6 +51,7 @@
 		$('#budget_value').on('click', function(){
 			$(this).select();
 		});
+		$('#scrollbar1').tinyscrollbar({ axis: 'y'});
 	});
 	
 	</script>
@@ -103,21 +105,34 @@
 			</article>
 			<article id="background_etape2">
 			</article>
-				<section id="activities">
-					<ul>
-						<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
-						<li><a href=""><span>Je veux de l'incongru<span></span></span></a></li>
-						<li><a href=""><span>Je veux manger<span></span></span></a></li>
-						<li><a href=""><span>Je veux boire<span></span></span></a></li>
-						<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
-					</ul>
-				</section>
-			<nav>
-			<a href="#" class="step_budget_validate"></a>
-			<a href="#" class="step_activite_validate"></a>
 
+			<div id="scrollbar1">
+			    <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+			    <div class="viewport">
+			        <div class="overview">
+						<section id="activities">
+							<ul>
+								<li><a href=""><span>Je n'ai pas d'idée<span></span></span></a></li>
+								<li><a href=""><span>Je veux de l'incongru<span></span></span></a></li>
+								<li><a href=""><span>Je veux manger<span></span></span></a></li>
+								<li><a href=""><span>Je veux boire<span></span></span></a></li>
+								<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+								<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+								<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+								<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+								<li><a href=""><span>Je veux me cultiver<span></span></span></a></li>
+							</ul>
+						</section>
+					</div>
+			    </div>
+			</div>
+			
+			<nav>
+				<a href="#" class="step_budget_validate"></a>
+				<a href="#" class="step_activite_validate"></a>
 			</nav>
 		</section>
+
 		<section id="etape3">
 			<article id="etape3done" class="on">
 			</article>
@@ -139,7 +154,7 @@
 					<a href="#" class="infos">plus d'informations</a>
 					</li>
 				</ul>
-		</section>
+			</section>
 			<article id="infosSup">
 				<h2>Musée du Louvres</h2>
 				<img src="image.jpg" alt="image">
