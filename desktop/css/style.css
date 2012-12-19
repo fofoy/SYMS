@@ -59,8 +59,8 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #form input:first-of-type{float: left;width:164px; margin: auto;background:#42506c;height:38px; line-height:30px;display:inline-block;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
 #form input:last-of-type {float: left;width:56px; margin: auto;background:#42506c;height:42px; line-height:30px;display:inline-block;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
--moz-border-radius: 5px;border-radius: 5px;font-size: 1.5em;}
-
+-moz-border-radius: 5px;border-radius: 5px;font-size: 1.5em;-webkit-transition: all ease .5s;}
+#form input:last-of-type:hover {background:#23324f;}
 
 
 #etape2 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8; float: left;margin-right:12px; display: block;position:relative;margin-top: 1em;}
@@ -102,7 +102,8 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 #generer {width:310px; margin:auto; clear: both;padding-top: 20px;}
 #generer a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif; text-transform:uppercase;background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
--moz-border-radius: 5px;border-radius: 5px;}
+-moz-border-radius: 5px;border-radius: 5px;-webkit-transition:all ease .5s;}
+#generer a:hover {background:#23324f;}
 
 .wrapper header{height:170px;}
 .wrapper header img {width:179px;height:140px; margin-top: 15px;}
