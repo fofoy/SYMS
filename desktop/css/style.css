@@ -198,7 +198,6 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #supp div a:hover{text-decoration:underline;}
 #map a {background:#42506c; padding:4px 10px 4px 10px;color:#e6ddc5;font-size: 1.4em;font-style:italic;text-decoration: none;border-radius: 3px;}
 
-
 #scrollbar1 { width: 310px; clear: both; margin: 20px 0 10px; }
 #scrollbar1 .viewport { width: 290px; height: 300px; overflow: hidden; position: relative; }
 #scrollbar1 .overview { width: 100%; list-style: none; position: absolute; left: 0; top: 0; }
