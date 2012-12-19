@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'SteelfishRgRegular';
+    src: url('../font/steelfish_rg-webfont.eot');
+    src: url('../font/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/steelfish_rg-webfont.woff') format('woff'),
+         url('../font/steelfish_rg-webfont.ttf') format('truetype'),
+         url('../font/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;background: url('img/background.png') no-repeat center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 .wrapper {width:960px;position:relative;margin:auto;}
 .wrapper div {width:477px;height:361px;margin:80px auto;}
@@ -14,10 +26,10 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 
 
 #monespace { width: 100%; height: 50px; line-height: 50px; text-align: center; background: #23324f; }
-#monespace h1 { text-transform: uppercase; font-size: 2em; color: #efefd9; display: table; margin: 0 auto; }
+#monespace h1 { font-family:'SteelfishRgRegular', 'Anaheim', sans-serif;text-transform: uppercase; font-size: 3em; color: #efefd9; display: table; margin: 0 auto; }
 #monespace h1:before, #monespace h1:after { content: ""; display: inline-block; width: .3em; height: .3em; background: #efefd9; border-radius: 100%; }
-#monespace h1:before { margin: 0 .3em .1em 0; }
-#monespace h1:after { margin: 0 0 .1em .3em; }
+#monespace h1:before { margin: 0 .3em .25em 0; }
+#monespace h1:after { margin: 0 0 .25em .3em; }
 
 
 /***
@@ -89,7 +101,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape3 article p a{text-decoration: none; color: #e6ddc5;}
 
 #generer {width:310px; margin:auto; clear: both;padding-top: 20px;}
-#generer a {background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
+#generer a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif; text-transform:uppercase;background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
 
 .wrapper header{height:170px;}
@@ -102,8 +114,8 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #itin span { display: inline-block; width: 11px; height: 16px; overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
 
 #menu {width:225px; height:105px;top:0;right:0;position:absolute;font-size: 0;}
-#menu ul li a {line-height:170px;width:111px;height:105px;background:#efefd9;color:#23324f;text-decoration:none;text-align:center;opacity:.8;display:block;font-size: 1rem;float:left;-webkit-transition:all .5s ease;}
-#menu ul li a:hover {line-height: 245px;height:145px;-webkit-transition:all .5s ease;}
+#menu ul li a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif; text-transform:uppercase; line-height:170px;width:111px;height:105px;background:#efefd9;color:#23324f;text-decoration:none;text-align:center;opacity:.8;display:block;font-size: 1.4rem;float:left;-webkit-transition:all .5s ease;}
+#menu ul li a:hover {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif; text-transform:uppercase; line-height: 245px;height:145px;-webkit-transition:all .5s ease;}
 #menu ul li:nth-child(1) a{border-right:1px solid #cdc5a8;}
 #menu ul li:nth-child(2) a{border-left:1px solid #ffffff;}
 
