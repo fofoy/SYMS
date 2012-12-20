@@ -116,7 +116,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape3 {width:310px; height:420px; box-shadow: 0px 0px 3px #a8a8a8;float: left;display: block;position:relative;text-align: left;margin-top: 1em;}
 #background_etape3 {width: 100%; height: 100%; position: absolute; background: #efefd9; opacity: 0.8; }
 
-#todo ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto 40px auto;}
+#todo ul li { display: block; width: 95%; height: 50px; background: #243352; margin: 10px auto 40px auto;}
 #todo ul li a:nth-child(1) { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative;background: #243352;}
 #todo ul li a:nth-child(1):after { content: ""; display: block; width: 35px; height: 26px; background: url('img/sprite_desktop.png'); position: absolute; right: 10px; top: 12px; background-position: -116px 0;}
 #todo ul li a:nth-child(1):hover:after, #todo ul li a:nth-child(1).active:after { background-position: -116px -26px; }
@@ -130,7 +130,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape3 nav:nth-child(2) a:first-child {background-position: -40px -56px;left:0;}
 #etape3 nav:nth-child(2) a:last-child {background-position: -53px -56px;right: 0;}
 
-#infosSup {background:#42506c;position:absolute;top:0;z-index:2;width:310px; height:420px;color: #efefd9;opacity:0;height:0px;overflow: scroll;-webkit-transition:all ease .5s;}
+#infosSup {background:#42506c;position:absolute;top:0;z-index:2;width:310px; height:420px;color: #efefd9;overflow:scroll;opacity:0;height:0px;-webkit-transition:all ease .5s;}
 #infosSup.on {height: 420px;opacity: 1;}
 #infosSup h2{display: table;font-weight:normal;color:#efefd9;margin: 25px auto 25px auto; font-size: 1.3em; text-transform: uppercase; text-align:center;padding: 10px 0px 10px 0px; border-width:80%;border-top: 1px solid #efefd9; border-bottom: 1px solid #efefd9; }
 #infosSup img {width:280px;height: 98px;border: 1px solid #efefd9; margin:auto;display: block;}
@@ -230,4 +230,28 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
 #scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
 #scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#scrollbar2 { width: 310px; clear: both; margin: 0; }
+#scrollbar2 .viewport { width: 295px; height: 345px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { width: 100%; list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar2 .thumb .end,
+#scrollbar2 .thumb { background-color: #23324f; }
+#scrollbar2 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar2 .track { background-color: #42506c; width:13px; position: relative; padding: 0 1px; margin-top:0px;}
+#scrollbar2 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar2 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar2 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+#scrollbar3 { width: 310px; clear: both; margin: 0; }
+#scrollbar3 .viewport { width: 295px; height: 345px; overflow: hidden; position: relative; }
+#scrollbar3 .overview { width: 100%; list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar3 .thumb .end,
+#scrollbar3 .thumb { background-color: #23324f; }
+#scrollbar3 .scrollbar { position: relative; float: right; width: 15px; }
+#scrollbar3 .track { background-color: #42506c; width:13px; position: relative; padding: 0 1px; margin-top:0px;}
+#scrollbar3 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar3 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar3 .disable{ display: none; }
 .noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }

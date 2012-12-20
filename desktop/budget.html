@@ -52,7 +52,8 @@
 			$(this).select();
 		});
 		$('#scrollbar1').tinyscrollbar({ axis: 'y'});
-
+		$('#scrollbar2').tinyscrollbar({ axis: 'y'});
+		$('#scrollbar3').tinyscrollbar({ axis: 'y'});
 		$('#activities ul li a').on('click', function(){
 			$(this).toggleClass('active');
 		});
@@ -166,37 +167,61 @@
 			</article>
 			<article id="background_etape3">
 			</article>
-			<section id="todo">
-				<ul>
-					<li>
-						<a href="#"><span>Le Mojito Lab<span>12€</span></span></a>
-						<a href="#" class="infos">plus d'informations</a>
-					</li>
+
+			<div id="scrollbar2">
+			    <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+			    <div class="viewport">
+			        <div class="overview">
+						<section id="todo">
 					
+							<ul>
+								<li>
+									<a href=""><span>Le Mojito Lab<span>12€</span></span></a>
+									<a href="#" class="infos">plus d'informations</a>
+								</li>
+								
+								<li><a href=""><span>La Grosse Mignonne<span>12€</span></span></a>
+								<a href="#" class="infos">plus d'informations</a>
+								</li>
 
-					<li><a href="#"><span>La Grosse Mignonne<span>12€</span></span></a>
-					<a href="#" class="infos">plus d'informations</a>
-					</li>
+								<li><a href=""><span>La Grosse Mignonne<span>12€</span></span></a>
+								<a href="#" class="infos">plus d'informations</a>
+								</li>
 
-					<li><a href="#"><span>La Lucha Libre<span>12€</span></span></a>
-					<a href="#" class="infos">plus d'informations</a>
-					</li>
-				</ul>
-			</section>
-			<article id="infosSup">
-				<h2>Musée du Louvres</h2>
-				<img src="image.jpg" alt="image">
-				<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
-				<p>Prix: <span>10€</span></p>
-				<p>Adresse: 180 rue de Rivoli, 75001 PARIS </p>
-				<a href="#" id="itin"><span></span>voir l'itinéraire</a>
-				
-				<nav>
-					<a href="#" id="validInfo"></a>
-					<a href="#" id="removeInfo"></a>
-				</nav>
+								<li><a href=""><span>La Grosse Mignonne<span>12€</span></span></a>
+								<a href="#" class="infos">plus d'informations</a>
+								</li>
 
-			</article>
+								<li><a href=""><span>La Grosse Mignonne<span>12€</span></span></a>
+								<a href="#" class="infos">plus d'informations</a>
+								</li>
+
+								<li><a href=""><span>La Lucha Libre<span>12€</span></span></a>
+								<a href="#" onClick="showInfosBudget();" class="infos">plus d'informations</a>
+								</li>
+							</ul>
+						
+						</section>
+					</div>
+			    </div>
+				</div>
+			
+					<article id="infosSup">
+			
+						<h2>Musée du Louvres</h2>
+						<img src="image.jpg" alt="image">
+						<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
+						<p>Prix: <span>10€</span></p>
+						<p>Adresse: 180 rue de Rivoli, 75001 PARIS </p>
+						<a href="#" id="itin"><span></span>voir l'itinéraire</a>
+						
+						<nav>
+							<a href="#" onclick="showInfosBudget();" id="validInfo"></a>
+							<a href="#" onclick="showInfosBudget();" id="removeInfo"></a>
+						</nav>
+					
+					</article>
+					
 		<nav>
 			<a href="#" class="step_activite_validate"></a>
 			<a href="#" class="step_liste_validate"></a>
