@@ -1,5 +1,5 @@
-function showInfos(){
-	var supp=document.getElementById('supp');
-	supp.className = (supp.className == 'on') ? '' : 'on';
+function showInfosListe(){
+	var suppListe=document.getElementById('supp');
+	suppListe.className = (suppListe.className == 'on') ? '' : 'on';
 	return false;
 }
