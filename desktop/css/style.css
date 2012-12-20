@@ -18,16 +18,28 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 #menu {width:225px; height:105px;top:0;right:0;position:absolute;font-size: 0;}
 #menu ul li a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif;line-height: 35px;width:111px;height:105px;background:#efefd9;color:#23324f;text-decoration:none;text-align:center;opacity:.8;display:block;font-size: 1.4rem;float:left;-webkit-transition:all .5s ease;}
 #menu ul li a:hover, #menu ul li a.active {height:105px;-webkit-transition:all .5s ease; padding-top: 50px;}
-#menu ul li:nth-child(1) a{border-right:1px solid #cdc5a8;}
+#menu ul li:nth-child(1) a{border-right:1px solid #23324e;}
 #menu ul li a:before { content: ''; display: block; width: 40px; height: 50px; background: url('img/sprite_desktop.png'); margin: 20px auto 0; -webkit-transition:all .5s ease; }
 #menu ul li:nth-child(2) a:before { background-position: 0 -50px; }
 #menu ul li a:hover:before { -webkit-transition:all .5s ease;}
 #menu ul li:nth-child(2) a{border-left:1px solid #ffffff;}
 
-/********************************INDEX.HTML*********************************/
+/********************************INDEXQR.HTML*********************************/
+
+#logo_indexqr {width:411px;height:302px;margin:50px auto;}
+#connexionqr {width:365px;margin: 20px auto;}
+#connexionqr a {background:#23324f;height:60px; line-height:60px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px;}
+#connexionqr a:before {content:'';background:red;width:75px;height:60px;display:inline-block;float:left;border-right:#141d2e 1px solid;-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-bottomleft: 5px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;}
+#qrcode {width:900px;height:200px;margin: auto;color:#23324f;}
+#qrcode p {font-family: 'SteelfishRgRegular', sans-serif; font-size: 6em;text-align: center;text-transform: uppercase;}
+#qrcode p span {font-size: 2em;}
+
+/********************************INDEXNAT.HTML*********************************/
 
 #logo_index {width:477px;height:361px;margin:80px auto;}
-#connexion {width:411px;margin:auto;}
+#connexion {width:411px;margin: 60px auto;}
 #connexion a {background:#23324f;height:60px; line-height:60px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
 #connexion a:before {content:'';background:red;width:75px;height:60px;display:inline-block;float:left;border-right:#141d2e 1px solid;-webkit-border-top-left-radius: 5px;
@@ -106,6 +118,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #etape2 nav a { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat; position:absolute;margin:18px 8px 0px 8px;}
 #etape2 nav a:first-child {background-position: -40px -56px;left:0;}
 #etape2 nav a:last-child {background-position: -53px -56px;right: 0;}
+#etape2 p {color:blue;text-align: center;margin:15px auto;font-family: Georgia, sans-serif;font-size:2em;}
 
 /*****ETAPE3******/
 
@@ -134,7 +147,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #infosSup.on {height: 420px;opacity: 1;}
 #infosSup h2{display: table;font-weight:normal;color:#efefd9;margin: 25px auto 25px auto; font-size: 1.3em; text-transform: uppercase; text-align:center;padding: 10px 0px 10px 0px; border-width:80%;border-top: 1px solid #efefd9; border-bottom: 1px solid #efefd9; }
 #infosSup img {width:280px;height: 98px;border: 1px solid #efefd9; margin:auto;display: block;}
-#infosSup p{text-decoration: none; padding: 0px 15px 0px 15px; font-size: 1.4em;display: block;text-align: justify;}
+#infosSup p {text-decoration: none; padding: 0px 15px 0px 15px; font-size: 1.4em;display: block;text-align: justify;}
 #infosSup a:nth-child(1){text-decoration: none;color:#e6e6d0;text-transform: italic;}
 #site{text-decoration: none;font-style: italic;color: #efefd9;}
 #itin {border-radius: 2px; background:#efefd2; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 2em; margin:auto; display:block; width: 80px; height: 20px;}
