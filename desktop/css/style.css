@@ -112,9 +112,9 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 .infos{-webkit-transition:all ease .2s; font-size: 1.4em; width: 270px; height: 20px; background: #e8e8d2; text-decoration: none;color: #23324f;position: absolute;margin-bottom:50px;padding:5px 0px 0px 10px;}
 .infos:hover {padding-left:20px;width: 260px;-webkit-transition:all ease .2s;}
 
-#etape3 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
-#etape3 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
-#etape3 nav a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
+#etape3 nav:nth-child(2){width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
+#etape3 nav:nth-child(2) a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
+#etape3 nav:nth-child(2) a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
 
 #infosSup {background:#42506c;position:absolute;top:0;z-index:2;width:310px; height:420px;color: #efefd9;opacity:0;height:0px;overflow: scroll;-webkit-transition:all ease .5s;}
 #infosSup.on {height: 420px;opacity: 1;}
@@ -125,6 +125,9 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #site{text-decoration: none;font-style: italic;color: #efefd9;}
 #itin {border-radius: 2px; background:#dfd7c1; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; margin:auto; display:block; width: 80px;}
 #itin span { display: inline-block; width: 11px; height: 16px;overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
+#infosSup nav {width: 103px; margin:auto;}
+#validInfo {height: 35px;width: 50px;background: blue;display: block;margin:15px auto 10px;display: inline-block;}
+#removeInfo {height: 35px;width: 50px;background: blue;display: block;margin:15px auto 10px;display: inline-block;}
 
 /*****BOUTON GENERER******/
 
