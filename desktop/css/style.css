@@ -135,9 +135,9 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #infosSup h2{display: table;font-weight:normal;color:#efefd9;margin: 25px auto 25px auto; font-size: 1.3em; text-transform: uppercase; text-align:center;padding: 10px 0px 10px 0px; border-width:80%;border-top: 1px solid #efefd9; border-bottom: 1px solid #efefd9; }
 #infosSup img {width:280px;height: 98px;border: 1px solid #efefd9; margin:auto;display: block;}
 #infosSup p{text-decoration: none; padding: 0px 15px 0px 15px; font-size: 1.4em;display: block;text-align: justify;}
-#infosSup a{text-decoration: none;color:#e6e6d0;text-transform: italic;}
+#infosSup a:nth-child(1){text-decoration: none;color:#e6e6d0;text-transform: italic;}
 #site{text-decoration: none;font-style: italic;color: #efefd9;}
-#itin {border-radius: 2px; background:#dfd7c1; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; margin:auto; display:block; width: 80px;}
+#itin {border-radius: 2px; background:#efefd2; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; margin:auto; display:block; width: 80px;}
 #itin span { display: inline-block; width: 11px; height: 16px;overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
 #infosSup nav {display: table; margin:auto;}
 #validInfo, #removeInfo {height: 27px;width: 55px;background: #efefd9;margin:15px 5px 10px;display: inline-block; border-radius: 3px; }
