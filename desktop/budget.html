@@ -52,16 +52,38 @@
 			$(this).select();
 		});
 		$('#scrollbar1').tinyscrollbar({ axis: 'y'});
+
 		$('#activities ul li a').on('click', function(){
 			$(this).toggleClass('active');
+		});
+		$('#todo ul li a:nth-child(1)').on('click', function(){
+			$(this).toggleClass('active');
+		});
+		$('.infos').on('click', function(){
+			$('#infosSup').toggleClass('on');
+		});
+		$('.information').on('click', function(){
+			$('#supp').toggleClass('on');
 		});
 		$('#itin').on('click', function(){
 			$('#mapBudget').toggleClass('on');
 		});
+		$('#validInfo').on('click', function(){
+			if($('#mapBudget').hasClass('on')){
+				$('#mapBudget').toggleClass('on');}
+			$('#infosSup').toggleClass('on');
+		});
+		$('#removeInfo').on('click', function(){
+			if($('#mapBudget').hasClass('on')){
+				$('#mapBudget').toggleClass('on');}
+			$('#infosSup').toggleClass('on');
+		});
+		
 	});
+
+
 	
 	</script>
-	<script src="js/fonctions.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -147,17 +169,17 @@
 			<section id="todo">
 				<ul>
 					<li>
-						<a href=""><span>Le Mojito Lab<span>12€</span></span></a>
+						<a href="#"><span>Le Mojito Lab<span>12€</span></span></a>
 						<a href="#" class="infos">plus d'informations</a>
 					</li>
 					
 
-					<li><a href=""><span>La Grosse Mignonne<span>12€</span></span></a>
+					<li><a href="#"><span>La Grosse Mignonne<span>12€</span></span></a>
 					<a href="#" class="infos">plus d'informations</a>
 					</li>
 
-					<li><a href=""><span>La Lucha Libre<span>12€</span></span></a>
-					<a href="#" onClick="showInfosBudget();" class="infos">plus d'informations</a>
+					<li><a href="#"><span>La Lucha Libre<span>12€</span></span></a>
+					<a href="#" class="infos">plus d'informations</a>
 					</li>
 				</ul>
 			</section>
@@ -170,8 +192,8 @@
 				<a href="#" id="itin"><span></span>voir l'itinéraire</a>
 				
 				<nav>
-					<a href="#" onclick="showInfosBudget();" id="validInfo"></a>
-					<a href="#" onclick="showInfosBudget();" id="removeInfo"></a>
+					<a href="#" id="validInfo"></a>
+					<a href="#" id="removeInfo"></a>
 				</nav>
 
 			</article>

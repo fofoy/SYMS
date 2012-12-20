@@ -7,7 +7,16 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Anaheim&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<script src="js/fonctions.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.information').on('click', function(){
+			$('#supp').toggleClass('on');
+			});
+		
+		});
+	</script>
 </head>
 <body>
 	
@@ -81,7 +90,7 @@
 					<article class="list">
 						<h2>Le musée du Louvres</h2>
 						<h3>10€</h3>
-						<a class="information" onclick="showInfosListe();" href="#">plus d'informations</a>
+						<a class="information" href="#">plus d'informations</a>
 					</article>
 					<a class="done" href="#"><img src=""/>DONE</a>
 				</section>

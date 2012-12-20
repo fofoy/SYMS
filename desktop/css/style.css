@@ -64,7 +64,7 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 input[type='range']{-webkit-appearance:none;background-color: #253554;height: .2em;}
 input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#253554;height: 1.6em;width: .5em;}
 #form{display: table;margin: 0 auto; height: 38px;overflow: hidden;}
-#form input:first-of-type{float: left;width:70%; margin: auto;background:#42506c;height:38px; line-height:30px;display:inline-block;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
+#form input:first-of-type{font-family:Georgia, sans-serif;float: left;width:70%; margin: auto;background:#42506c;height:38px; line-height:15px;display:inline-block;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;}
 #form input:last-of-type {float: left;width:20%; margin-left: 5px;background:#42506c;height:40px; line-height:30px;display:inline-block;text-align: center;font-size:2em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;font-size: 1.5em;-webkit-transition: all ease .5s;}
@@ -87,7 +87,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #activities ul li:last-child { margin-bottom: 0; }
 #activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; background: #243352;}
 #activities ul li a:after { content: ""; display: block; width: 35px; height: 26px; background: url('img/sprite_desktop.png'); position: absolute; right: 10px; top: 12px; background-position: -116px 0;}
-#activities ul li a:hover:after, #activities ul li a.active:after { background-position: -116px -26px; }
+#activities ul li a:hover:after, #activities ul li a.active:after {background-position: -116px -26px; }
 #activities ul li a span { display: block; width: 65%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px; /*background: url('img/sprite.png');*/ background: #efefd9; }
 #activities ul li a span span:before { content: ""; display: block; width: 25px; height: 25px; background: url('img/sprite_desktop.png'); margin: 5px 0 0 6px; }
