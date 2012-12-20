@@ -71,7 +71,7 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #form input:last-of-type:hover {background:#23324f;}
 
 #etape1 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
-#etape1 nav a{display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 0px;}
+#etape1 nav a { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat; right:0;position:absolute;margin:18px 8px 0px 8px;background-position: -53px -56px;}
 
 /*****ETAPE2******/
 
@@ -92,8 +92,9 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #activities ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 2px 0 0 8px; }
 
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
-#etape2 nav a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
-#etape2 nav a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
+#etape2 nav a { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat; position:absolute;margin:18px 8px 0px 8px;}
+#etape2 nav a:first-child {background-position: -40px -56px;left:0;}
+#etape2 nav a:last-child {background-position: -53px -56px;right: 0;}
 
 /*****ETAPE3******/
 
@@ -112,9 +113,10 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 .infos{-webkit-transition:all ease .2s; font-size: 1.4em; width: 270px; height: 20px; background: #e8e8d2; text-decoration: none;color: #23324f;position: absolute;margin-bottom:50px;padding:5px 0px 0px 10px;}
 .infos:hover {padding-left:20px;width: 260px;-webkit-transition:all ease .2s;}
 
-#etape3 nav:nth-child(2){width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
-#etape3 nav:nth-child(2) a:first-child {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;left:0;position:absolute;margin:18px 8px 0px 8px;}
-#etape3 nav:nth-child(2) a:last-of-type {display:block;height: 20px;width: 11px;background:url("img/sprite.png") no-repeat;background-position: -48px -42px;right:0;position:absolute;margin:18px 8px 0px 8px;}
+#etape3 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
+#etape3 nav a:first-child, #etape3 nav a:last-child { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat;position:absolute;margin:18px 8px 0px 8px;}
+#etape3 nav a:first-child {background-position: -40px -56px;left:0;}
+#etape3 nav a:last-child {background-position: -53px -56px;right: 0;}
 
 #infosSup {background:#42506c;position:absolute;top:0;z-index:2;width:310px; height:420px;color: #efefd9;opacity:0;height:0px;overflow: scroll;-webkit-transition:all ease .5s;}
 #infosSup.on {height: 420px;opacity: 1;}
