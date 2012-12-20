@@ -18,7 +18,7 @@ body {margin:0;padding:0; font-family:'Anaheim', sans-serif; font-size:62.5%;bac
 #menu {width:225px; height:105px;top:0;right:0;position:absolute;font-size: 0;}
 #menu ul li a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif;line-height: 35px;width:111px;height:105px;background:#efefd9;color:#23324f;text-decoration:none;text-align:center;opacity:.8;display:block;font-size: 1.4rem;float:left;-webkit-transition:all .5s ease;}
 #menu ul li a:hover, #menu ul li a.active {height:105px;-webkit-transition:all .5s ease; padding-top: 50px;}
-#menu ul li:nth-child(1) a{border-right:1px solid #23324e;}
+#menu ul li:nth-child(1) a{border-right:1px solid #d3c89f;}
 #menu ul li a:before { content: ''; display: block; width: 40px; height: 50px; background: url('img/sprite_desktop.png'); margin: 20px auto 0; -webkit-transition:all .5s ease; }
 #menu ul li:nth-child(2) a:before { background-position: 0 -50px; }
 #menu ul li a:hover:before { -webkit-transition:all .5s ease;}
