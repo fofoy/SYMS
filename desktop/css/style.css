@@ -116,9 +116,11 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat; position:absolute;margin:18px 8px 0px 8px;}
-#etape2 nav a:first-child {background-position: -40px -56px;left:0;}
-#etape2 nav a:last-child {background-position: -53px -56px;right: 0;}
-#etape2 p {color:blue;text-align: center;margin:15px auto;font-family: Georgia, sans-serif;font-size:2em;}
+#etape2 nav a:first-of-type {background-position: -40px -56px;left:0;}
+#etape2 nav a:last-of-type {background-position: -53px -56px;right: 0;}
+#etape2 nav p {width:100%; height: 100%; line-height: 55px;text-align: center;font-family: Georgia, sans-serif;font-size:2em;position: absolute;color: #efefd9; margin: 0 auto;}
+#etape2 nav p:before {content:"";display:block;width:20px;height:18px;background:url('img/sprite_desktop.png');background-position:-40px -79px;position:absolute;top:20px;left:110px;}
+
 
 /*****ETAPE3******/
 

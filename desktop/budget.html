@@ -17,6 +17,7 @@
 			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
 			range.val(range.val() - 5);
 			$('#rangeOutput').html(range.val());
+			$('.budget_value').html(range.val() +'€');
 			return false;
 		});
 		$('#plus a').on('click',function(){
@@ -25,6 +26,7 @@
 			//document.getElementById('rangeOutput').textContent=document.getElementById('range').value-i;
 			range.val(range.val() -5 + 10);
 			$('#rangeOutput').html(range.val());
+			$('.budget_value').html(range.val() +'€');
 			return false;
 		});
 		$(document).on('keyup', function(){
@@ -33,6 +35,7 @@
 			console.log(budget_value.val());
 			range.val(budget_value.val());
 			$('#rangeOutput').html(range.val());
+			$('.budget_value').html(range.val() +'€');
 		});
 		$('.step_budget_validate').on('click', function(){
 			$('#etape1done').toggleClass('on');
@@ -56,9 +59,11 @@
 		$('#scrollbar3').tinyscrollbar({ axis: 'y'});
 		$('#activities ul li a').on('click', function(){
 			$(this).toggleClass('active');
+			return false;
 		});
 		$('#todo ul li a:nth-child(1)').on('click', function(){
 			$(this).toggleClass('active');
+			return false;
 		});
 		$('.infos').on('click', function(){
 			$('#infosSup').toggleClass('on');
@@ -160,7 +165,7 @@
 			
 
 			<nav>
-				<p>13€</p>
+				<p class="budget_value"></p>
 				<a href="#" class="step_budget_validate"></a>
 				<a href="#" class="step_activite_validate"></a>
 			</nav>
