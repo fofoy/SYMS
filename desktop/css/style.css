@@ -83,13 +83,24 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #background_etape2 {width:310px; height:420px; background:#efefd9;opacity: 0.8;position: absolute;}
 
 #activities { margin: 10px auto 0;}
-#activities ul li { display: block; width: 95%; height: 50px; background: #243352; margin: 10px auto;}
+#activities ul li { display: block; width: 95%; height: 50px; background: #243352; margin: 10px 0;}
 #activities ul li:last-child { margin-bottom: 0; }
 #activities ul li a { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative; background: #243352;}
-#activities ul li a:after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 10px; top: 17px; background-position: -41px -28px;}
-#activities ul li a span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
+#activities ul li a:after { content: ""; display: block; width: 35px; height: 26px; background: url('img/sprite_desktop.png'); position: absolute; right: 10px; top: 12px; background-position: -116px 0;}
+#activities ul li a:hover:after, #activities ul li a.active:after { background-position: -116px -26px; }
+#activities ul li a span { display: block; width: 65%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
 #activities ul li a span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px; /*background: url('img/sprite.png');*/ background: #efefd9; }
-#activities ul li a span span:before { content: ""; display: block; width: 23px; height: 23px; background: url('img/sprite.png'); margin: 2px 0 0 8px; }
+#activities ul li a span span:before { content: ""; display: block; width: 25px; height: 25px; background: url('img/sprite_desktop.png'); margin: 5px 0 0 6px; }
+
+#activities ul li a span span:before { background-position: -66px 0; }
+#activities ul li:nth-child(2) a span span:before { background-position: -66px -25px; }
+#activities ul li:nth-child(3) a span span:before { background-position: -66px -50px; }
+#activities ul li:nth-child(4) a span span:before { background-position: -66px -75px; }
+#activities ul li:nth-child(5) a span span:before { background-position: -66px -100px; }
+#activities ul li:nth-child(6) a span span:before { background-position: -91px 0; }
+#activities ul li:nth-child(7) a span span:before { background-position: -91px -25px; }
+#activities ul li:nth-child(8) a span span:before { background-position: -91px -50px; }
+#activities ul li:nth-child(9) a span span:before { background-position: -91px -75px; }
 
 #etape2 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
 #etape2 nav a { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat; position:absolute;margin:18px 8px 0px 8px;}
@@ -107,16 +118,17 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 
 #todo ul li { display: block; width: 100%; height: 50px; background: #243352; margin: 10px auto 40px auto;}
 #todo ul li a:nth-child(1) { display: block; height: 100%; color: #efefd9; font-size: 1.4em; position: relative;background: #243352;}
-#todo ul li a:nth-child(1) :after { content: ""; display: block; width: 19px; height: 17px; background: url('img/sprite.png'); position: absolute; right: 2px; top: 17px; background-position: -41px -28px;}
-#todo ul li a:nth-child(1)  span { display: block; width: 70%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
-#todo ul li a:nth-child(1)  span span { width: 37px; height: 37px; padding: 0; border-radius: 100%; position: absolute; top: -4px; right: -15px;background: #efefd9; }
+#todo ul li a:nth-child(1):after { content: ""; display: block; width: 35px; height: 26px; background: url('img/sprite_desktop.png'); position: absolute; right: 10px; top: 12px; background-position: -116px 0;}
+#todo ul li a:nth-child(1):hover:after, #todo ul li a:nth-child(1).active:after { background-position: -116px -26px; }
+#todo ul li a:nth-child(1)  span { display: block; width: 65%; height: 30px; line-height: 30px; padding: 0 15px; background: #485775; position: absolute; top: 10px; }
+#todo ul li a:nth-child(1)  span span { width: 37px; height: 37px; padding: 0; text-align: center; font-family: Georgia; line-height: 37px; border-radius: 100%; position: absolute; top: -4px; right: -15px;background: #efefd9; color: #23324f; }
 .infos{-webkit-transition:all ease .2s; font-size: 1.4em; width: 270px; height: 20px; background: #e8e8d2; text-decoration: none;color: #23324f;position: absolute;margin-bottom:50px;padding:5px 0px 0px 10px;}
 .infos:hover {padding-left:20px;width: 260px;-webkit-transition:all ease .2s;}
 
-#etape3 nav {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
-#etape3 nav a:first-child, #etape3 nav a:last-child { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat;position:absolute;margin:18px 8px 0px 8px;}
-#etape3 nav a:first-child {background-position: -40px -56px;left:0;}
-#etape3 nav a:last-child {background-position: -53px -56px;right: 0;}
+#etape3 nav:nth-child(2) {width:310px; height:55px;background:#42506c;bottom:0;right:0;position:absolute;}
+#etape3 nav:nth-child(2) a:first-child, #etape3 nav:nth-child(2) a:last-child { display:block;height: 23px;width: 13px;background:url("img/sprite_desktop.png") no-repeat;position:absolute;margin:18px 8px 0px 8px;}
+#etape3 nav:nth-child(2) a:first-child {background-position: -40px -56px;left:0;}
+#etape3 nav:nth-child(2) a:last-child {background-position: -53px -56px;right: 0;}
 
 #infosSup {background:#42506c;position:absolute;top:0;z-index:2;width:310px; height:420px;color: #efefd9;opacity:0;height:0px;overflow: scroll;-webkit-transition:all ease .5s;}
 #infosSup.on {height: 420px;opacity: 1;}
@@ -127,15 +139,19 @@ input[type='range']::-webkit-slider-thumb {-webkit-appearance: none;background:#
 #site{text-decoration: none;font-style: italic;color: #efefd9;}
 #itin {border-radius: 2px; background:#dfd7c1; padding: .3em .7em; color: #42506c; text-decoration: none; font-style: italic; line-height: 1em; margin:auto; display:block; width: 80px;}
 #itin span { display: inline-block; width: 11px; height: 16px;overflow: hidden; background: url('img/sprite.png') no-repeat; background-position: -40px 0; margin-right: .2em; }
-#infosSup nav {width: 103px; margin:auto;}
-#validInfo {height: 35px;width: 50px;background: blue;display: block;margin:15px auto 10px;display: inline-block;}
-#removeInfo {height: 35px;width: 50px;background: blue;display: block;margin:15px auto 10px;display: inline-block;}
+#infosSup nav {display: table; margin:auto;}
+#validInfo, #removeInfo {height: 27px;width: 55px;background: #efefd9;margin:15px 5px 10px;display: inline-block; border-radius: 3px; }
+#validInfo:before, #removeInfo:before { content:"";display: block; width:25px; height:20px; background:url('img/sprite_desktop.png'); background-position: -41px -16px; margin: 4px auto 0; }
+#removeInfo:before { background-position: -41px -36px; }
+#mapBudget {z-index: 3;position: absolute;width: 635px;height: 0px; -webkit-transition:all .5s ease;background: white;margin: 10px 0;}
+#mapBudget.on{height: 420px;}
 
 /*****BOUTON GENERER******/
 
 #generer {width:310px; margin:auto; clear: both;padding-top: 20px;}
 #generer a {font-family:'SteelfishRgRegular', 'Anaheim', sans-serif; text-transform:uppercase;background:#42506c;height:45px; line-height:45px;display:block;margin:auto;text-align: center;font-size:2.4em;text-decoration:none;color:#efefd9;-webkit-border-radius: 5px;
 -moz-border-radius: 5px;border-radius: 5px;-webkit-transition:all ease .5s;}
+#generer a:before { content: ''; display: block; width: 22px; height: 28px; background: url('img/sprite_desktop.png'); background-position: -18px -100px; position: absolute;margin-top: 7px; margin-left: 70px;}
 #generer a:hover {background:#23324f;}
 
 /********************************ESPACE.HTML*********************************/
