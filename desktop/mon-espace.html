@@ -12,9 +12,12 @@
 	<script type="text/javascript">
 		$(function(){
 			$('.information').on('click', function(){
-			$('#supp').toggleClass('on');
+				$('#supp').toggleClass('on');
 			});
-		
+			$('.done').on('click', function(){
+				$(this).toggleClass('active');
+				return false;
+			});
 		});
 	</script>
 </head>
@@ -92,7 +95,7 @@
 						<h3>10€</h3>
 						<a class="information" href="#">plus d'informations</a>
 					</article>
-					<a class="done" href="#"><img src=""/>DONE</a>
+					<a class="done" href="#">DONE</a>
 				</section>
 
 				<section id="act2">
@@ -101,7 +104,7 @@
 						<h3>10€</h3>
 						<a class="information" href="#">plus d'informations</a>
 					</article>
-					<a class="done" href="#"><img src=""/>DONE</a>
+					<a class="done" href="#">DONE</a>
 				</section>
 
 				<section id="act3">
@@ -110,7 +113,7 @@
 						<h3>10€</h3>
 						<a class="information" href="#">plus d'informations</a>
 					</article>
-					<a class="done" href="#"><img src=""/>DONE</a>
+					<a class="done" href="#">DONE</a>
 				</section>
 
 				<section id="act4">
@@ -119,7 +122,7 @@
 						<h3>10€</h3>
 						<a class="information" href="#">plus d'informations</a>
 					</article>
-					<a class="done" href="#"><img src=""/>DONE</a>
+					<a class="done" href="#">DONE</a>
 				</section>
 
 			</article>

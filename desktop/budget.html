@@ -61,7 +61,7 @@
 			$(this).toggleClass('active');
 			return false;
 		});
-		$('#todo ul li a:nth-child(1)').on('click', function(){
+		$('#todo ul li a:nth-child(1)').on('click', function(e){
 			$(this).toggleClass('active');
 			return false;
 		});
@@ -85,7 +85,6 @@
 				$('#mapBudget').toggleClass('on');}
 			$('#infosSup').toggleClass('on');
 		});
-		
 	});
 
 
@@ -165,7 +164,6 @@
 			
 
 			<nav>
-				<p class="budget_value"></p>
 				<a href="#" class="step_budget_validate"></a>
 				<a href="#" class="step_activite_validate"></a>
 			</nav>
@@ -216,23 +214,24 @@
 			    </div>
 				</div>
 			
-					<article id="infosSup">
-			
-						<h2>Musée du Louvres</h2>
-						<img src="image.jpg" alt="image">
-						<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
-						<p>Prix: <span>10€</span></p>
-						<p>Adresse: 180 rue de Rivoli, 75001 PARIS </p>
-						<a href="#" id="itin"><span></span>voir l'itinéraire</a>
-						
-						<nav>
-							<a href="#" onclick="showInfosBudget();" id="validInfo"></a>
-							<a href="#" onclick="showInfosBudget();" id="removeInfo"></a>
-						</nav>
+				<article id="infosSup">
+		
+					<h2>Musée du Louvres</h2>
+					<img src="image.jpg" alt="image">
+					<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore, deinde etiam patris.<a href="www.museedulouvre.fr">www.museedulouvre.fr</a></p>
+					<p>Prix: <span>10€</span></p>
+					<p>Adresse: 180 rue de Rivoli, 75001 PARIS </p>
+					<a href="#" id="itin"><span></span>voir l'itinéraire</a>
 					
-					</article>
+					<nav>
+						<a href="#" onclick="showInfosBudget();" id="validInfo"></a>
+						<a href="#" onclick="showInfosBudget();" id="removeInfo"></a>
+					</nav>
+				
+				</article>
 					
 		<nav>
+			<p class="budget_value"></p>
 			<a href="#" class="step_activite_validate"></a>
 			<a href="#" class="step_liste_validate"></a>
 		</nav>
